@@ -1,0 +1,28 @@
+{
+  "name": "swagger-codegen-nodejs",
+  "version": "1.0.0",
+  "description": "nodejs-koa代码生成工具，根据标准化的swagger接口文件*.yaml，生成接口代码及router",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1",
+    "swagger-parser-simple": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysdyyy/swagger-codegen-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysdyyy/swagger-codegen-nodejs/issues"
+  },
+  "homepage": "https://github.com/ysdyyy/swagger-codegen-nodejs#readme"
+}
