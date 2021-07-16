@@ -1,0 +1,2 @@
+
+router.$method($url, controller.$interfaceName);

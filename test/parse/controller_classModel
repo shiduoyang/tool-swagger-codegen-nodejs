@@ -1,0 +1,13 @@
+const R = require('ramda');
+
+
+class $className{
+    constructor() {
+        
+    }
+
+    $incPoint
+}
+
+
+module.exports = new $className();
