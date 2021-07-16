@@ -1,0 +1,15 @@
+
+    /**
+     * @url: $url
+     * @method: $method
+     * @summary: $summary
+     * @description: $description
+     * @parameters: $parameters
+     */
+    async $interfaceName(ctx) {
+        ctx.body = resData(200, '', {
+            otherValue: 1,
+            data: $exampleData,
+        });
+    }
+    

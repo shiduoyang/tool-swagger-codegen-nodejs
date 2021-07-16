@@ -1,0 +1,11 @@
+const Router = require('koa-router');
+const controller = require('');
+
+
+const router = new Router({});
+
+$incPoint
+
+
+
+module.exports = router;
