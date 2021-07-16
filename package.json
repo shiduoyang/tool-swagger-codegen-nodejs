@@ -1,7 +1,7 @@
 {
-  "name": "swagger-codegen-nodejs",
+  "name": "swagger-codegen-common",
   "version": "1.0.0",
-  "description": "nodejs-koa代码生成工具，根据标准化的swagger接口文件*.yaml，生成接口代码及router",
+  "description": "nodejs实现的swagger代码生成工具，根据标准化的swagger接口文件*.yaml及模板文件，将接口信息填充进模板文件中并写入指定的位置",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -19,7 +19,7 @@
     "test": "mocha test"
   },
   "bin":{
-    "swagger-codegen-nodejs": "./bin/index.js"
+    "swagger-codegen-common": "./bin/index.js"
   },
   "repository": {
     "type": "git",
