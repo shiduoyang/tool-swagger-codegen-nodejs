@@ -1,6 +1,6 @@
 {
   "name": "swagger-codegen-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nodejs实现的swagger代码生成工具，根据标准化的swagger接口文件*.yaml及模板文件，将接口信息填充进模板文件中并写入指定的位置",
   "main": "index.js",
   "directories": {
@@ -18,6 +18,12 @@
   "scripts": {
     "test": "mocha test"
   },
+  "keywords": [
+    "swagger-codegen",
+    "swagger",
+    "接口文档",
+    "codegen"
+  ],
   "bin":{
     "swagger-codegen-common": "./bin/index.js"
   },
